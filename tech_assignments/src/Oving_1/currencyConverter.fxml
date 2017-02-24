@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+    	<Pane layoutY="0.0" prefHeight="200.0" prefWidth="500.0" styleClass="board" stylesheets="@cC-style.css">
+         	<children>
+            	<Text layoutX="320.0" layoutY="105.0" styleClass="currencyText" text="10,000" />
+	            <ImageView fitHeight="90.0" fitWidth="125.0" layoutX="8.0" layoutY="57.0">
+	               <image>
+	                  <Image url="@usa.jpg" />
+	               </image>
+	            </ImageView>
+	            <Text layoutX="150.0" layoutY="105.0" styleClass="currency" text="USD" />
+         	</children>
+      	</Pane>
+      	<Pane layoutY="200.0" prefHeight="200.0" prefWidth="500.0" styleClass="board" stylesheets="@cC-style.css">
+      		<children>
+            	<Text layoutX="290.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="currencyText" text="992,815" />
+         		<ImageView fitHeight="90.0" fitWidth="125.0" layoutX="8.0" layoutY="57.0">
+	               <image>
+	                  <Image url="@japan.jpg" />
+	               </image>
+	            </ImageView>
+	            <Text layoutX="150.0" layoutY="105.0" styleClass="currency" text="JPY" />
+         	</children>
+      	</Pane>
+      	<Pane layoutY="400.0" prefHeight="200.0" prefWidth="500.0" styleClass="board" stylesheets="@cC-style.css">
+      		<children>
+            	<Text layoutX="340.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="currencyText" text="7,694" />
+         		<ImageView fitHeight="90.0" fitWidth="125.0" layoutX="8.0" layoutY="57.0">
+	               <image>
+	                  <Image url="@eu.jpg" />
+	               </image>
+	            </ImageView>
+	            <Text layoutX="150.0" layoutY="105.0" styleClass="currency" text="EUR" />
+         	</children>
+      	</Pane>
+      	<Pane layoutY="600.0" prefHeight="200.0" prefWidth="500.0" styleClass="board" stylesheets="@cC-style.css">
+      		<children>
+            	<Text layoutX="340.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="currencyText" text="6,559" />
+         		<ImageView fitHeight="90.0" fitWidth="125.0" layoutX="8.0" layoutY="57.0">
+	               <image>
+	                  <Image url="@gbr.jpg" />
+	               </image>
+	            </ImageView>
+	            <Text layoutX="150.0" layoutY="105.0" styleClass="currency" text="GBP" />
+         	</children>
+      	</Pane>  
+      
+	</children>
+	
+<stylesheets>
+ 	<URL value="@cC-style.css" />
+</stylesheets>
+</AnchorPane>

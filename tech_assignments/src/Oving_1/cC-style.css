@@ -1,0 +1,16 @@
+.board {
+	-fx-background-color: #edd9a3;
+}
+
+.currencyText {
+	-fx-text-fill: black;
+	-fx-font-size: 35pt;
+	-fx-text-alignment: right;
+	-fx-content-display: right;
+}	
+
+.currency {
+	-fx-text-fill: #ff9934;
+	-fx-font-size: 20pt;
+	
+}
